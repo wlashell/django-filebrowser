@@ -50,7 +50,7 @@
                 params: { 'csrf_token': '{{ csrf_token }}',
                           'csrf_name': 'csrfmiddlewaretoken',
                           'csrf_xname': 'X-CSRFToken',
-                          'folder': '{{ query.dir|escapejs }}', },
+                          'folder': '{{ query.dir|escapejs }}' },
 
                 sizeLimit: {{ settings_var.MAX_UPLOAD_SIZE|unlocalize }},
                 minSizeLimit: 0,
